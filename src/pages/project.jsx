@@ -4,6 +4,7 @@ function Project() {
     return (
         <>
             <Navigation/>
+            <main className="h-screen"></main>
         </>
     )
 }

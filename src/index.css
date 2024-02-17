@@ -7,6 +7,7 @@
 
 body {
     font-family: "Plus Jakarta Sans", sans-serif;
+    @apply bg-white dark:bg-[#1d232a];
 }
 
 /* Width */
@@ -29,4 +30,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #1d4ed8;
     border-radius: 128px;
+}
+
+.tooltip {
+    @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+    @apply visible z-50;
 }

@@ -4,6 +4,7 @@ function About() {
     return (
         <>
             <Navigation/>
+            <main className="h-screen"></main>
         </>
 
     )

@@ -7,8 +7,8 @@ const ExpCards = () => {
             jobTitle: "IT Strategy & Security Management",
             jobPlace: "PT. Administrasi Medika (AdMedika) - Telkom Indonesia Group",
             status: "Intern",
-            schImg: "src/assets/admedika-logo.png",
-            schImgAlt: "PT. Administrasi Medika",
+            compImg: "src/assets/admedika-logo.png",
+            compImgAlt: "PT. Administrasi Medika",
             startDate: "July 2023",
             endDate: "Current",
             desc: "While working here until now, I have been responsible for developing the backend of a user management system using \"Identity and Access Management\" solutions such as OpenIAM, Keycloak, and FusionAuth. Subsequently, I implemented it as a Single Sign-On (SSO) solution to enhance the security of user identities on websites, ensuring their safety and proper authentication.\n" +
@@ -22,6 +22,30 @@ const ExpCards = () => {
                 "Additionally, some of my project responsibilities have involved:\n" +
                 "• Creating documentation for my web projects\n" +
                 "• Conducting testing on various authentication methods.",
+            skills: ["kotlin", "html", "css", "javascript", "tailwind CSS", "bootstrap", "firebase", "UI/UX"]
+        },
+        {
+            key: "kemenag_sulteng",
+            jobTitle: "Web & User Interface Designer",
+            jobPlace: "Kementerian Agama Prov. Sulawesi Tengah",
+            status: "Intern",
+            compImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Seal_of_the_Ministry_of_Religious_Affairs_of_the_Republic_of_Indonesia.svg/1200px-Seal_of_the_Ministry_of_Religious_Affairs_of_the_Republic_of_Indonesia.svg.png    ",
+            compImgAlt: "Kemenag Sulteng",
+            startDate: "June 2022",
+            endDate: "Oct 2022",
+            desc: "During my internship at the Ministry of Religious Affairs in Central Sulawesi, I was tasked with operating WordPress as the core of the website. Throughout my 4-month internship, I dedicated the first 2 weeks to learning how to use WordPress effectively. Following that, I spent two and a half months focusing on designing the desired website layout as guided by my mentor. The remaining 2 weeks were dedicated to successfully launching the website without any issues and carrying out incremental maintenance when requested by my mentor.",
+            skills: ["kotlin", "html", "css", "javascript", "tailwind CSS", "bootstrap", "firebase", "UI/UX"]
+        },
+        {
+            key: "lab_tech",
+            jobTitle: "UI Designer",
+            jobPlace: "PT. Labtech Indonesia",
+            status: "Intern",
+            compImg: "https://labtech-indonesia.com/wp-content/uploads/2024/02/Logo-Labtech-512px.jpg",
+            compImgAlt: "PT. Labtech Indonesia",
+            startDate: "January 2022",
+            endDate: "April 2022",
+            desc: "During my internship at the Ministry of Religious Affairs in Central Sulawesi, I was tasked with operating WordPress as the core of the website. Throughout my 4-month internship, I dedicated the first 2 weeks to learning how to use WordPress effectively. Following that, I spent two and a half months focusing on designing the desired website layout as guided by my mentor. The remaining 2 weeks were dedicated to successfully launching the website without any issues and carrying out incremental maintenance when requested by my mentor.",
             skills: ["kotlin", "html", "css", "javascript", "tailwind CSS", "bootstrap", "firebase", "UI/UX"]
         },
     ];
@@ -67,7 +91,7 @@ const ExpCards = () => {
                 <div
                     className="flex flex-col md:flex-row justify-start items-center w-full bg-blue-100 bg-opacity-90 border border-blue-900 rounded p-6 my-4 gap-6">
                     <div className="flex mx-24 items-center justify-center">
-                        <img src={item.schImg} alt={item.schImgAlt} className="object-contain" width={128} height={128}/>
+                        <img src={item.compImg} alt={item.compImgAlt} className="object-contain" width={128} height={128}/>
                     </div>
                     <div className="flex flex-col gap-4 w-full">
                         <h3 className="text-2xl text-blue-900 font-bold tracking-wide capitalize">

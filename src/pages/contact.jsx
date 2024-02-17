@@ -4,6 +4,7 @@ function Contact() {
     return (
         <>
             <Navigation/>
+            <main className="h-screen"></main>
         </>
     )
 }
